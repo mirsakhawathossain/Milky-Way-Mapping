@@ -1,0 +1,8 @@
+spec = SalsaSpectrum('Observe-1/spectrum_10999.fits')
+spec.fitBaseline([-230 -180 -120 -40 60 220],'vel',3)
+spec.showBaseline()
+spec.subtractBaseline()
+spec.fitGaussians()
+spec.fitGaussians([52.01 8.8180 10 55.18 25.3185 10 54.63 48.0068 10],'dummy')
+spec.plot()
+spec.gaussParVel(2:3:end)
