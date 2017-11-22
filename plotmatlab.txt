@@ -1,0 +1,5 @@
+set(gcf, 'PaperPositionMode', 'auto');
+print -depsc2 finalPlot1.eps
+close;
+
+fixPSlinestyle('finalPlot1.eps', 'finalPlot2.eps');
