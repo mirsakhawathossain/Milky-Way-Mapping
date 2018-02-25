@@ -54,4 +54,4 @@ ylabel('Rotation velocity [km/s]')
 % Save final figure to file
 % print -painters -dpdf -r300 RotationCurve.pdf
 set(gcf, 'PaperPositionMode', 'auto');
-print -depsc2 RotationCurve_7.eps
+print -depsc2 -cmyk RotationCurve_8.eps

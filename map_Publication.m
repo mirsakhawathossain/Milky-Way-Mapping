@@ -91,4 +91,4 @@ ylabel('[kpc]')
 % Save final figure to file
 % print -painters -dpdf -r300 Map.pdf
 set(gcf, 'PaperPositionMode', 'auto');
-print -depsc2 Map_7.eps
+print -depsc2 -cmyk Map_8.eps
